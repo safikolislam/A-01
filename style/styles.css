@@ -1,0 +1,31 @@
+*{
+    font-family:sans-serif;
+}
+.Banner{
+    width:90%;
+    height:560px;
+    background:#C6E4D6;
+    border-radius:10px;
+    display:flex;
+    justify-content: space-between;
+    padding:30px;
+
+}
+.Banner p{
+    color:#B3B3B3;
+    font-weight:bold;
+
+}
+.intro p{
+  margin-top:10rem;
+  
+}
+ .btn{
+    background:green;
+    color:#fff;
+    font-weight: bold;
+    padding:15px 10px;
+    border-radius:5px;
+    border:none;
+ 
+} 
