@@ -1,9 +1,14 @@
-*{
-    font-family:sans-serif;
+
+.open-sans-normal {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 body{
-    background:#fff;
-    Padding:50px;
+    background:#ECECEC;
+    Padding:100px;
 }
 .Banner{
     width:90%;
@@ -34,11 +39,13 @@ body{
  
 } 
 .cart-01{
-width:250px;
+width:450px;
 height:200px;
-background:#D5D6D8;
 padding:20px;
 border-radius:10px;
+
+background:#FFFF;
+border:1px solid #D5D6D8;
 
 }
 .cart{
@@ -46,4 +53,66 @@ border-radius:10px;
     padding:100px ;
     display:flex;
     gap:20px;
+}
+
+.card-01{
+    background:#81B4FC;
+    width:300px;
+    height:300px;
+    padding:20px;
+    border-radius:10px;
+}
+.card-02{
+    background:#C6E4D6;
+    width:300px;
+    height:300px;
+    padding:20px;
+    border-radius:10px;
+}
+.card-03{
+      background:#FFF7DF;
+      border:none;
+      width:300px;
+      height: 300px;
+      padding:20px;
+      border-radius:10px;
+}
+.btn-b{
+    color:#fff;
+    background:#5490F5;
+    border:none;
+    width:100px;
+    height:30px;
+    border-radius:10px;
+}
+.btn-g{
+    background:#09A15C;
+    color:#ffff;
+    border:none;
+    width:100px;
+    height:30px;
+    border-radius:5px;
+}
+    
+.btn-y{
+ background:#FFC239;
+ border:none;
+ width:100px;
+ height:30px;
+ border-radius:5px;
+ color:#fff;
+}
+.card{
+    margin:0 auto;
+    display:flex;
+    gap:20px;
+}
+
+.description{
+   
+    margin-top:80px;
+    background:#ffff;
+    width:60%;
+    height:50%;
+    padding:20px;
 }
